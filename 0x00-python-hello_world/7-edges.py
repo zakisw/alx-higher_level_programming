@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 word = "Holberton"
-first = word[0:3]
+first = word[:3]
 second = word[-2:]
 middle = word[1:8]
 print(f"First 3 letters: {first}")

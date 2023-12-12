@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-for i in range(123):
-    c = chr(i)
+def islower(c):
     if (c >= 'a') and (c <= 'z'):
         True
     else:

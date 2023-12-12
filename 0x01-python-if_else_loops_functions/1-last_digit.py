@@ -15,5 +15,5 @@ if number > 0:
 
 elif number < 0:
 
-    elif (ld < 6) and (ld != 0):
+    if (ld < 6) and (ld != 0):
         print(f'Last digit of {number} is {-ld} and is less than 6 and not 0')

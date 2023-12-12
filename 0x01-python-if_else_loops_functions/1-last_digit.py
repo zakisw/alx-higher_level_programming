@@ -21,5 +21,5 @@ elif number < 0:
         print(f'Last digit of {number} is {ld} and is 0')
 
 else:
-    print(f'Last digit of {number} is {ld} and is 0')
+    print(f'Last digit of {ld} is {ld} and is 0')
     

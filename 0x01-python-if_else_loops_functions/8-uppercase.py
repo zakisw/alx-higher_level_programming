@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 def uppercase(txt):
+
     for i in (txt):
         if (i >= 'a') and (i <= 'z'):
-            j = ord(i) - 32
-            print('{}'.format(chr(j)), end='')
+            j = chr(ord(i) - 32)
+            print('{}'.format(j),end='')
         else:
-            print('{}'.format(i), end='')
-    print(end='\n')
+            j = i 
+            print('{}'.format(j),end='')
+
+
+         

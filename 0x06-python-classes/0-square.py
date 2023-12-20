@@ -3,11 +3,10 @@
     __init__: does nothing
 '''
 class Square:
-    pass
     '''
     This is an empty class Square that defines a square
     '''
-    def __int__(self,name = 'square'):
+    def __int__(self, name = ''):
         self.name = square
 
 

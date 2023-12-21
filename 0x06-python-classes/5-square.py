@@ -52,6 +52,6 @@ class Square:
         prints in stdout the square with the character #
         '''
         if self.__size == 0:
-                print()
+            print()
         for i in range(0, self.__size):
-                print('#'*self.__size)
+            print('#'*self.__size)

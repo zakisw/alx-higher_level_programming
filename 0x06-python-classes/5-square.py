@@ -51,5 +51,5 @@ class Square:
             if self.__size == 0:
                 print(end='\n')
             else:
-                print('#',end='')
+                print('#'*self.__size)
             

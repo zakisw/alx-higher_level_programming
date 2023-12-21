@@ -41,6 +41,18 @@ class Square:
             TypeError: size must be an integer
             ValueError: size must be >= 0
         '''
+        if not isinstance(value, int):
+            raise TypeError("size must be an integer")
+        if value < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = value
+
+    @property
+    def position(self):
+        return self.__position
+
+    @position.setter
+    def position(self, value):
         if not isinstance(value, tuple):
             raise TypeError("position must be a tuple of 2 positive integers")
         if len(value) != 2:
@@ -51,15 +63,6 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
-    @property
-    def position(self):
-        return self.__position
-
-    @position.setter
-    def position(self, value):
-        if not isinstance (value, tuple) and value >=0:
-            raise TypeError("position must be a tuple of 2 positive integers")
-        self.__position = value
     def my_print(self):
         '''
         prints in stdout the square with the character #

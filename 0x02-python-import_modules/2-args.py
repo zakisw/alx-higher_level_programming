@@ -16,7 +16,8 @@ def print_arguments():
         print(f"{total_args}: {' '.join(args_list)}")
     else:
         print("{} arguments:".format(total_args))
-        print(f"{total_args}: {' '.join(args_list)}")
+        for i in range(1, total_args + 1):
+            print(f"{i}: {sys.argv[i]}")
 
 
 if __name__ == "__main__":

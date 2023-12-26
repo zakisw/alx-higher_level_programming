@@ -11,6 +11,9 @@ def print_arguments():
     args_list = sys.argv[1:]  # Exclude the script name
     if total_args <= 0:
         print("{} arguments.".format(total_args))
+    elif total_args == 1:
+        print("{} argument:".format(total_args))
+        print(f"{total_args}: {' '.join(args_list)}")
     else:
         print("{} arguments:".format(total_args))
         print(f"{total_args}: {' '.join(args_list)}")

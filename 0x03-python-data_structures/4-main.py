@@ -2,7 +2,7 @@
 new_in_list = __import__('4-new_in_list').new_in_list
 
 my_list = [1, 2, 3]
-idx = 0
+idx = 3
 new_element = 4
 new_list = new_in_list(my_list, idx, new_element)
 

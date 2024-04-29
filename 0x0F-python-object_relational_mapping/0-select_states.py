@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Lists all states from the database hbtn_0e_0_usa sorted in ascending order by
+Lists all states from the database hbtn_0e_0_usa with ascending order by
 states.id
 """
 import MySQLdb

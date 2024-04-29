@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Takes in the name of a state as an argument and 
-lists all cities of that state, with the us 
+Takes in the name of a state as an argument and
+lists all cities of that state, with the us
 of the database `hbtn_0e_4_usa`.
 """
 

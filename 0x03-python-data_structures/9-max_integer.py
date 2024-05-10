@@ -5,12 +5,10 @@ def max_integer(my_list=[]):
     elif len(my_list) == 1:
         return my_list[0]
     else:
-            for j in range((len(my_list))):
-                if  my_list[1]>my_list[j]:
-                    maxx = my_list[1]
-                else:
-                    maxx = my_list[j]
-                    j+=1
-                return maxx   
+        maxx = my_list[0]
+        for j in my_list[1:]:
+            if  j > maxx:
+                maxx = j
+        return maxx   
                     
 
